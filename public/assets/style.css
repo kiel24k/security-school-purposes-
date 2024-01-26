@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color:rgb(252, 245, 237);
+}
+
+
+.signup {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 10rem;
+    height: auto;
+
+}
+
+.signup-content-one {
+    width: 20rem;
+    height: 500px;
+    background-color: #ffffff;
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url('/assets/security1.png');
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.signup-content-two {
+    background-color: rgb(209, 233, 215);
+    width: 30rem;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+
+
+.title h1 {
+    font-size: 40px;
+}
+
+.title p {
+    font-size: 15px;
+}
+
+
+.input {
+    display: grid;
+    bottom: 4rem;
+    gap: 2rem;
+    height: auto;
+}
+
+.input input {
+    height: 3rem;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: solid 2px black;
+    background-color: rgb(209, 233, 215);
+    border-radius: 2px;
+
+
+}
+input[type="text"], input[type="password"] {
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #838080;
+}
+
+.input button{
+padding:10px;
+cursor: pointer;
+border-width: 0;
+background-color: rgb(67, 180, 233);
+border-radius: 10px;
+box-shadow: 10px 10px 15px gray;
+transition: all linear 0.2s;
+}
+.input button:hover{
+    background-color: rgb(141, 201, 241);
+    box-shadow:1px 1px 15px gray;
+}
+.error {
+
+    width: 16rem;
+    margin:auto;
+    display: grid;
+    gap:15px;
+    color:red;
+}
+.check{
+display: flex;
+justify-content: center;
+margin-top:10rem;
+
+}
+.check img{
+    border-radius:100%;
+    width: 21rem;
+    height: 17rem;
+}
+.check-title{
+    justify-content: center;
+    display: grid;
+    margin-top:1rem;
+}
+
+
